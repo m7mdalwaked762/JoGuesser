@@ -97,4 +97,6 @@ h1{
   .answer-btn{
     text-align: center;
   }
-}
+ h1{
+    margin-top: 0px;
+  }
