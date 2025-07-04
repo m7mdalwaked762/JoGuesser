@@ -37,9 +37,9 @@ fetch('data.json')
 
       if (userAnswer === correctanswer) {
         score++;
-        new Audio('assets/Correct Answer.mp3').play();
+        new Audio('Assets/Correct Answer.mp3').play();
       } else {
-        new Audio('assets/Wrong Answer.mp3').play(); 
+        new Audio('Assets/Wrong Answer.mp3').play(); 
       }
 
       document.getElementById("pts").innerHTML = score;
